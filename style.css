@@ -3,7 +3,7 @@
     --secondary: #1e1e2f;
     --background: #ffffff;
     --text: #333333;
-    --light-pink: #ffe4ec;
+    --light-pink: hsl(342, 100%, 95%);
 }
 
 body {
@@ -96,6 +96,17 @@ button:hover {
 
 .card h3 {
     color: var(--primary);
+}
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.card a:hover {
+    text-decoration: underline;
 }
 
 /* FOOTER */
